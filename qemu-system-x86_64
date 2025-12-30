@@ -1,3 +1,9 @@
 qemu-system-x86_64 -m 2048 -hda *virtual_disc_name*.iso -vga vmware -vnc 1
 
 If you want, for internet "-net nic -net user -device rtl8139", for audio "-soundhw ac97" and at last for CD Rom "-cdrom *iso_name.iso" or if you'll boot from it add "-cdrom *iso_name.iso -boot d" After starting open VNC app, you can connect to QEMU emulator via localhost:5901 adress.
+
+******
+
+qemu-system-x86_64 -smp 2 -net nic -net user -device AC97 -m 2048 -vnc 127.0.0.1:8 -cdrom image.iso -hda hdd.img
+
+qemu-system-x86_64 -h
