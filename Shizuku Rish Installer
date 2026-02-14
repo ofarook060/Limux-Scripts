@@ -1,3 +1,14 @@
-https://github.com/ofarook060/termux-shizuku-tools.git
-       ------  ------  -----
+https://github.com/aliyoariel/shizuku-termux-installer
+
+Features
+
+       Auto-Injection: Automatically moves binaries to $PREFIX/bin.
+       Zero-Config Patching: Automatically removes BASEDIR and maps DEX to absolute system paths.
+       Dual Mode: Install from local exported files or fetch directly from GitHub.
+       Persistent Backups: Keeps a copy of binaries in Documents/aerixy/.
+
+
+Quick Start
+
+curl -sL https://github.com/aliyoariel/shizuku-termux-installer/raw/refs/heads/main/init.sh | bash
 
