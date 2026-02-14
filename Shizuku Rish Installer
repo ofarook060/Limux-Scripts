@@ -12,3 +12,45 @@ Quick Start
 
 curl -sL https://github.com/aliyoariel/shizuku-termux-installer/raw/refs/heads/main/init.sh | bash
 
+     - --------------------------------------- ---------------------------------------------------
+
+https://github.com/duckofduckers/Shizuku-Rish-Setup
+
+Shizuku Rish Setup (Termux)
+
+🔗 Official Releases:
+
+       https://github.com/duckofduckers/Shizuku-Rish-Setup/releases/tag/Release
+
+Overview
+
+This repository provides a safe and consistent installer for setting up rish with Shizuku inside Termux.
+
+The installer handles:
+
+       Correct file placement
+       Permission setup
+       Basic validation to prevent silent failures
+       Using the installer is the recommended and supported installation method.
+
+
+Installation
+
+Run the installer directly in Termux:
+
+              bash <(curl -fsSL https://github.com/duckofduckers/Shizuku-Rish-Setup/raw/main/Installer)
+
+Uninstallation
+
+To remove all files installed by the installer, run the uninstaller:
+
+              bash <(curl -fsSL https://github.com/duckofduckers/Shizuku-Rish-Setup/raw/main/Uninstaller)
+
+Releases
+
+The Releases page is provided for reference and transparency:
+       
+       https://github.com/duckofduckers/Shizuku-Rish-Setup/releases/tag/Release
+
+
+ -  ------------- ----------------------------- ------------------------------- - -------
