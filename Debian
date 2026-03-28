@@ -1,0 +1,5 @@
+https://github.com/01101010110/proot-distro-scripts
+
+curl -sL https://raw.githubusercontent.com/01101010110/proot-distro-scripts/main/xrdp-setup.sh -o xrdp-setup.sh && chmod +x xrdp-setup.sh && source xrdp-setup.sh
+
+adb shell device_config put activity_manager max_phantom_processes 2147483647
