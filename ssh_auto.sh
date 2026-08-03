@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# /data/adb/service.d/ # chown root:root # chmod 755 #
+
 # Provide full paths for Magisk environment
 PATH=/sbin:/system/bin:/system/xbin:/data/adb/apks/bin:$PATH
 
