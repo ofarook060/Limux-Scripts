@@ -1,0 +1,1 @@
+curl -fsSL https://raw.githubusercontent.com/superman-enamy/opencode-termux-installer/main/install.sh | bash
